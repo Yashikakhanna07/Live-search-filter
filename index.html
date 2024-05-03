@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Live Search Filter</title>
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center h-screen overflow-hidden">
+    <div class="container">
+      <header class="header bg-indigo-600 text-white px-8 py-6">
+        <h4 class="title text-2xl font-bold leading-none">Live Search Filter</h4>
+        <small class="subtitle block opacity-75">Search by name and/or location</small>
+        <input type="text" id="filter" placeholder="Search" class="bg-black bg-opacity-30 text-white text-sm rounded-full py-2 px-4 mt-4 w-full">
+      </header>
+  
+      <ul id="result" class="user-list bg-white max-h-96 overflow-y-auto list-none">
+        <li>
+          <h3>Loading...</h3>
+        </li>
+      </ul>
+    </div>
+    <script src="js/script.js"></script>
+  </body>.
+</html>
